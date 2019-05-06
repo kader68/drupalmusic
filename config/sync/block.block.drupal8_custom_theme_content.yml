@@ -1,17 +1,17 @@
-uuid: cc7c7799-04fb-4f40-b40e-6f11b4de6649
+uuid: d1870d75-f1ef-4e92-bee4-714c6f5cdb58
 langcode: en
 status: true
 dependencies:
   module:
     - system
   theme:
-    - yg_music
+    - drupal8_custom_theme
 _core:
-  default_config_hash: 9EoWV2Lot6FVSr50t4hoKgiz1LIXYWNG-IIPYsWxBqo
-id: yg_music_content
-theme: yg_music
+  default_config_hash: 2iV_xLhWVuryUrT9LLyi1CMetI1fLGh0bKuHEoGO0_s
+id: drupal8_custom_theme_content
+theme: drupal8_custom_theme
 region: content
-weight: 0
+weight: 1
 provider: null
 plugin: system_main_block
 settings:

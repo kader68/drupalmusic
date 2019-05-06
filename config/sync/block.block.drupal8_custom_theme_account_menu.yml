@@ -1,4 +1,4 @@
-uuid: b5c67820-24b6-4607-bb8f-af665f7fded7
+uuid: 33252184-83d7-46f1-8580-12f51144775c
 langcode: en
 status: true
 dependencies:
@@ -7,13 +7,13 @@ dependencies:
   module:
     - system
   theme:
-    - yg_music
+    - drupal8_custom_theme
 _core:
-  default_config_hash: DweBpscQZdG0-fHkSpUzdYucrNH45G_KF7Z82V-oyQM
-id: yg_music_account_menu
-theme: yg_music
-region: logo
-weight: 0
+  default_config_hash: UDK7J88OsL5LLTq-Or_5JVnMLHcgTQsjpKlmwZWjBr8
+id: drupal8_custom_theme_account_menu
+theme: drupal8_custom_theme
+region: auto_hidden_block
+weight: 11
 provider: null
 plugin: 'system_menu_block:account'
 settings:
@@ -22,5 +22,5 @@ settings:
   provider: system
   label_display: '0'
   level: 1
-  depth: 1
+  depth: 2
 visibility: {  }

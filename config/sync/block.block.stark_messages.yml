@@ -1,15 +1,15 @@
-uuid: faa522be-0557-4015-bfa5-d3fd20d2a09c
+uuid: b0b2b84f-af5d-4453-b8be-aab992293c5f
 langcode: en
 status: true
 dependencies:
   module:
     - system
   theme:
-    - yg_music
+    - stark
 _core:
   default_config_hash: KHQIJ7Vfl25lTjzIc7qIvnuistt-Mw2O0kG4jCofmkI
-id: yg_music_messages
-theme: yg_music
+id: stark_messages
+theme: stark
 region: highlighted
 weight: 0
 provider: null

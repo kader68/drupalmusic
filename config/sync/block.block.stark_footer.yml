@@ -1,4 +1,4 @@
-uuid: 779ea667-0c69-4474-a29c-6bd43441e2b1
+uuid: 9b71bcf4-52aa-49e3-92a7-9b76ee7fc814
 langcode: en
 status: true
 dependencies:
@@ -7,12 +7,12 @@ dependencies:
   module:
     - system
   theme:
-    - yg_music
+    - stark
 _core:
   default_config_hash: kkISXE1LT2FJEoYnqCrCpeFB-2pmGmMxMklVk7rQcfg
-id: yg_music_footer
-theme: yg_music
-region: logo
+id: stark_footer
+theme: stark
+region: sidebar_first
 weight: 0
 provider: null
 plugin: 'system_menu_block:footer'

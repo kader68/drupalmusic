@@ -1,4 +1,4 @@
-uuid: d351704e-8832-4902-a61b-c23ccf78327a
+uuid: fe8033cc-4ee6-4836-bcf8-5613a14cda64
 langcode: en
 status: true
 dependencies:
@@ -7,11 +7,11 @@ dependencies:
   module:
     - system
   theme:
-    - yg_music
+    - stark
 _core:
   default_config_hash: rx9IrdDv7Ldc4kpalZAxdhIPZfYIeOMh1N-qKoQZwHo
-id: yg_music_main_menu
-theme: yg_music
+id: stark_main_menu
+theme: stark
 region: primary_menu
 weight: 0
 provider: null

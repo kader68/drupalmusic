@@ -1,16 +1,16 @@
-uuid: 118c9080-752c-4784-95e7-02c99b4ccd75
+uuid: 6ad614bc-0162-437e-a605-e8009e8cb1c5
 langcode: en
 status: true
 dependencies:
   module:
     - system
   theme:
-    - yg_music
+    - stark
 _core:
   default_config_hash: oXUb3JZR2WW5VOdw4HrhRicCsq51mCgLfRyvheG68ck
-id: yg_music_breadcrumbs
-theme: yg_music
-region: logo
+id: stark_breadcrumbs
+theme: stark
+region: sidebar_first
 weight: 0
 provider: null
 plugin: system_breadcrumb_block

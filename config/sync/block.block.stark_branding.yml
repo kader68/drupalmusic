@@ -1,15 +1,15 @@
-uuid: 41e3d838-eb10-480b-a8ed-ce43a33c7e88
+uuid: 812cc2ee-7c2e-488e-b2cc-684f79c5dca9
 langcode: en
 status: true
 dependencies:
   module:
     - system
   theme:
-    - yg_music
+    - stark
 _core:
   default_config_hash: NDwadleLD3YVSbDUaakxyYZyINYtkFtOVGShfq4kWy8
-id: yg_music_branding
-theme: yg_music
+id: stark_branding
+theme: stark
 region: header
 weight: 0
 provider: null
