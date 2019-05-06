@@ -1,0 +1,22 @@
+uuid: 1e700fe2-9973-41f2-ada7-95e91fd3fab0
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - yg_music
+_core:
+  default_config_hash: oXUb3JZR2WW5VOdw4HrhRicCsq51mCgLfRyvheG68ck
+id: yg_music_breadcrumbs
+theme: yg_music
+region: logo
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  provider: system
+  label_display: '0'
+visibility: {  }

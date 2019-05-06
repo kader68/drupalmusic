@@ -1,0 +1,22 @@
+uuid: 8a739e0f-1fec-4f84-aea0-34a3c77a7092
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - yg_music
+_core:
+  default_config_hash: jQQUUWN2Uxr5qZtc9zcJKBCxpKY8orN1u2HPqYYRQDI
+id: yg_music_powered
+theme: yg_music
+region: logo
+weight: 10
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  provider: system
+  label_display: '0'
+visibility: {  }
