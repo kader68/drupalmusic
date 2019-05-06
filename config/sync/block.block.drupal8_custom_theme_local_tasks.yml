@@ -1,15 +1,15 @@
-uuid: 5c584bcf-287f-42c9-8d25-25a170ff650a
+uuid: 303f495e-94fd-4ae9-b6c0-7a2ff638be96
 langcode: en
 status: true
 dependencies:
   theme:
-    - yg_music
+    - drupal8_custom_theme
 _core:
-  default_config_hash: X9I1OB0W3WlWtrK-CNcg6hNWwa8wficanpH8pYnDZDE
-id: yg_music_local_tasks
-theme: yg_music
+  default_config_hash: 8LCDd70leyE-SzVYEPhZA6InMo7D3KQQyJbhdvGP_wM
+id: drupal8_custom_theme_local_tasks
+theme: drupal8_custom_theme
 region: content
-weight: -40
+weight: 0
 provider: null
 plugin: local_tasks_block
 settings:

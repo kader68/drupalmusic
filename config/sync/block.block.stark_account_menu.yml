@@ -1,4 +1,4 @@
-uuid: b5c67820-24b6-4607-bb8f-af665f7fded7
+uuid: b57f8f07-31da-4de5-bc77-d7811f27eeef
 langcode: en
 status: true
 dependencies:
@@ -7,12 +7,12 @@ dependencies:
   module:
     - system
   theme:
-    - yg_music
+    - stark
 _core:
   default_config_hash: DweBpscQZdG0-fHkSpUzdYucrNH45G_KF7Z82V-oyQM
-id: yg_music_account_menu
-theme: yg_music
-region: logo
+id: stark_account_menu
+theme: stark
+region: sidebar_first
 weight: 0
 provider: null
 plugin: 'system_menu_block:account'

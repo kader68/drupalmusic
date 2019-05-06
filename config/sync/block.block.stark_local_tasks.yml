@@ -1,13 +1,13 @@
-uuid: 5c584bcf-287f-42c9-8d25-25a170ff650a
+uuid: 22c7c24f-d475-4344-832b-494424481c76
 langcode: en
 status: true
 dependencies:
   theme:
-    - yg_music
+    - stark
 _core:
   default_config_hash: X9I1OB0W3WlWtrK-CNcg6hNWwa8wficanpH8pYnDZDE
-id: yg_music_local_tasks
-theme: yg_music
+id: stark_local_tasks
+theme: stark
 region: content
 weight: -40
 provider: null

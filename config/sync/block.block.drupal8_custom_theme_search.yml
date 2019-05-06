@@ -1,16 +1,16 @@
-uuid: a7753b0b-fef7-4f85-ae8a-7864b091ce1d
+uuid: 77ce7c08-0146-4db0-b95b-f3e1962b3e40
 langcode: en
 status: true
 dependencies:
   module:
     - search
   theme:
-    - yg_music
+    - drupal8_custom_theme
 _core:
-  default_config_hash: za-39d5WDUg6XvbyqSnuVYEeq6QM4qKJxW8MnoAha5A
-id: yg_music_search
-theme: yg_music
-region: sidebar_first
+  default_config_hash: JNH0Tk4bohNkHjjbx_YV_tgl1NEYN1gB1nv7ShBHJi8
+id: drupal8_custom_theme_search
+theme: drupal8_custom_theme
+region: search
 weight: -1
 provider: null
 plugin: search_form_block
