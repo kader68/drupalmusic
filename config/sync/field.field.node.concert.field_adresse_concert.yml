@@ -1,0 +1,19 @@
+uuid: 2e400f51-c972-4060-99c0-2b0801fe7694
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_adresse_concert
+    - node.type.concert
+id: node.concert.field_adresse_concert
+field_name: field_adresse_concert
+entity_type: node
+bundle: concert
+label: 'Adresse du concert:'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

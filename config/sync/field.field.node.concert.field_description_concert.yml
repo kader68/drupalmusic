@@ -1,0 +1,22 @@
+uuid: 9a707734-46cb-4207-b6d1-d1c483ce1c5b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_description_concert
+    - node.type.concert
+  module:
+    - text
+id: node.concert.field_description_concert
+field_name: field_description_concert
+entity_type: node
+bundle: concert
+label: 'Description du concert:'
+description: 'Décrivez le concert'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

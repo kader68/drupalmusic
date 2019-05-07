@@ -1,0 +1,19 @@
+uuid: 2c35c2f6-4c8d-456b-a08c-159f23dbb8f4
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - text
+id: node.field_description_concert
+field_name: field_description_concert
+entity_type: node
+type: text_with_summary
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,20 @@
+uuid: ee3084c6-c9df-4eac-8c1e-46d8c3f0b245
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - text
+id: node.field_membres_groupe
+field_name: field_membres_groupe
+entity_type: node
+type: text
+settings:
+  max_length: 255
+module: text
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false
