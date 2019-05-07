@@ -10,7 +10,7 @@ _core:
   default_config_hash: pFvF1zir4OQX1RB7OYGLdSxKn1vJ6gEyA7eEmKet0x0
 id: drupal8_custom_theme_branding
 theme: drupal8_custom_theme
-region: header
+region: sidebar_first
 weight: 0
 provider: null
 plugin: system_branding_block

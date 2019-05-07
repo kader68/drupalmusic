@@ -1,4 +1,4 @@
-uuid: cc7c7799-04fb-4f40-b40e-6f11b4de6649
+uuid: 9c47bf94-28e0-46f0-ac28-a2ecdcd0b758
 langcode: en
 status: true
 dependencies:
@@ -7,11 +7,11 @@ dependencies:
   theme:
     - yg_music
 _core:
-  default_config_hash: 9EoWV2Lot6FVSr50t4hoKgiz1LIXYWNG-IIPYsWxBqo
+  default_config_hash: 2iV_xLhWVuryUrT9LLyi1CMetI1fLGh0bKuHEoGO0_s
 id: yg_music_content
 theme: yg_music
 region: content
-weight: 0
+weight: 1
 provider: null
 plugin: system_main_block
 settings:

@@ -1,4 +1,4 @@
-uuid: b5c67820-24b6-4607-bb8f-af665f7fded7
+uuid: 1f4b9190-db88-4c5d-8601-a047bea31ef1
 langcode: en
 status: true
 dependencies:
@@ -9,11 +9,11 @@ dependencies:
   theme:
     - yg_music
 _core:
-  default_config_hash: DweBpscQZdG0-fHkSpUzdYucrNH45G_KF7Z82V-oyQM
+  default_config_hash: UDK7J88OsL5LLTq-Or_5JVnMLHcgTQsjpKlmwZWjBr8
 id: yg_music_account_menu
 theme: yg_music
 region: logo
-weight: 0
+weight: 11
 provider: null
 plugin: 'system_menu_block:account'
 settings:
@@ -22,5 +22,5 @@ settings:
   provider: system
   label_display: '0'
   level: 1
-  depth: 1
+  depth: 2
 visibility: {  }

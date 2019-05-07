@@ -1,6 +1,6 @@
 name: 'YG Music'
 description: 'YG Music is a theme template perfect for music related websites'
-# core: 8.x
+core: 8.x
 type: theme
 base theme: classy
 screenshot: yg_music.png

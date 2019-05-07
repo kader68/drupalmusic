@@ -1,4 +1,4 @@
-uuid: d351704e-8832-4902-a61b-c23ccf78327a
+uuid: 099ff731-f864-4940-92fe-8f565b3cd118
 langcode: en
 status: true
 dependencies:
@@ -9,11 +9,11 @@ dependencies:
   theme:
     - yg_music
 _core:
-  default_config_hash: rx9IrdDv7Ldc4kpalZAxdhIPZfYIeOMh1N-qKoQZwHo
+  default_config_hash: NFc09vR7sWBNIqnP7WxhYwmUVAu2r9PgPv5UDyU6mY8
 id: yg_music_main_menu
 theme: yg_music
 region: primary_menu
-weight: 0
+weight: 10
 provider: null
 plugin: 'system_menu_block:main'
 settings:
@@ -21,6 +21,6 @@ settings:
   label: 'Main navigation'
   provider: system
   label_display: '0'
-  level: 1
-  depth: 1
+  level: 3
+  depth: 2
 visibility: {  }

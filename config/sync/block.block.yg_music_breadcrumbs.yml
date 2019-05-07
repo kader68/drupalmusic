@@ -1,4 +1,4 @@
-uuid: 118c9080-752c-4784-95e7-02c99b4ccd75
+uuid: 3a764268-76cf-4a55-8f78-6210d1a99bc1
 langcode: en
 status: true
 dependencies:
@@ -7,11 +7,11 @@ dependencies:
   theme:
     - yg_music
 _core:
-  default_config_hash: oXUb3JZR2WW5VOdw4HrhRicCsq51mCgLfRyvheG68ck
+  default_config_hash: oeVuISAGvPACU6aw_v8d93367e6g_AQplrspqo-mkcQ
 id: yg_music_breadcrumbs
 theme: yg_music
 region: logo
-weight: 0
+weight: -100
 provider: null
 plugin: system_breadcrumb_block
 settings:

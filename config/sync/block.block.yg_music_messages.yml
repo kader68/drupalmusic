@@ -1,4 +1,4 @@
-uuid: faa522be-0557-4015-bfa5-d3fd20d2a09c
+uuid: 84d93ed2-ee6a-4981-81fd-06ed424d0e53
 langcode: en
 status: true
 dependencies:
@@ -7,11 +7,11 @@ dependencies:
   theme:
     - yg_music
 _core:
-  default_config_hash: KHQIJ7Vfl25lTjzIc7qIvnuistt-Mw2O0kG4jCofmkI
+  default_config_hash: QIkgXcWE1mmHydQgvCfsGLm5Ha1GgUbdsDl3Bh5ilco
 id: yg_music_messages
 theme: yg_music
 region: highlighted
-weight: 0
+weight: -50
 provider: null
 plugin: system_messages_block
 settings:

@@ -1,15 +1,15 @@
-uuid: d21c310d-9742-44ca-85dd-1d082edaf9db
+uuid: 5586a1ef-00f3-4736-975a-4dde11c3ff17
 langcode: en
-status: true
+status: false
 dependencies:
   theme:
     - yg_music
 _core:
-  default_config_hash: 7rR9chwXvdM2H8OYMAYx9Zj3GGlPMrZp_M3ZA4thYTk
+  default_config_hash: kqZQnR1TUbxPC7NSveYa1zq-mU19WvcZt-sXR1xk6As
 id: yg_music_page_title
 theme: yg_music
-region: content
-weight: -50
+region: logo
+weight: 0
 provider: null
 plugin: page_title_block
 settings:

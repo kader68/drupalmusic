@@ -1,15 +1,15 @@
-uuid: 5c584bcf-287f-42c9-8d25-25a170ff650a
+uuid: 40c7318e-8155-4c15-820d-d1ddf3034298
 langcode: en
 status: true
 dependencies:
   theme:
     - yg_music
 _core:
-  default_config_hash: X9I1OB0W3WlWtrK-CNcg6hNWwa8wficanpH8pYnDZDE
+  default_config_hash: 8LCDd70leyE-SzVYEPhZA6InMo7D3KQQyJbhdvGP_wM
 id: yg_music_local_tasks
 theme: yg_music
 region: content
-weight: -40
+weight: 0
 provider: null
 plugin: local_tasks_block
 settings:
