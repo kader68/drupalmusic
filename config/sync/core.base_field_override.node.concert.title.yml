@@ -1,0 +1,18 @@
+uuid: 40ac73a3-1b10-4a1e-bcd2-db701238a8a9
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.concert
+id: node.concert.title
+field_name: title
+entity_type: node
+bundle: concert
+label: Titre
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

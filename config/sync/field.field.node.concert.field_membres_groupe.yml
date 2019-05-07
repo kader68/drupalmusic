@@ -1,0 +1,21 @@
+uuid: b44518ed-9802-4c7c-bb3a-d6e8b105aa98
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_membres_groupe
+    - node.type.concert
+  module:
+    - text
+id: node.concert.field_membres_groupe
+field_name: field_membres_groupe
+entity_type: node
+bundle: concert
+label: 'Membres du groupe:'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

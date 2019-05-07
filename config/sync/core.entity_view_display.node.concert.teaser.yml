@@ -1,0 +1,24 @@
+uuid: baddcb0c-1087-407e-8363-a8476b637e2f
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.concert.field_date_concert
+    - field.field.node.concert.field_description_concert
+    - node.type.concert
+  module:
+    - user
+id: node.concert.teaser
+targetEntityType: node
+bundle: concert
+mode: teaser
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_date_concert: true
+  field_description_concert: true

@@ -1,0 +1,24 @@
+uuid: 33849f82-4d73-48d1-a283-fe7301f1f09a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_date_concert
+    - node.type.concert
+  module:
+    - datetime
+id: node.concert.field_date_concert
+field_name: field_date_concert
+entity_type: node
+bundle: concert
+label: 'Date du concert:'
+description: 'Entrez la date de votre concert'
+required: true
+translatable: false
+default_value:
+  -
+    default_date_type: now
+    default_date: now
+default_value_callback: ''
+settings: {  }
+field_type: datetime

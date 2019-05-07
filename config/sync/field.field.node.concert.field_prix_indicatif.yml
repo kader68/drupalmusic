@@ -1,0 +1,25 @@
+uuid: cf9bc25a-31be-4841-84b6-1580f473da81
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_prix_indicatif
+    - node.type.concert
+id: node.concert.field_prix_indicatif
+field_name: field_prix_indicatif
+entity_type: node
+bundle: concert
+label: 'Prix indicatif :'
+description: 'Indiquez le prix prévisionnel de votre concert : '
+required: false
+translatable: false
+default_value:
+  -
+    value: !!float 10
+default_value_callback: ''
+settings:
+  min: !!float 0
+  max: null
+  prefix: €
+  suffix: ''
+field_type: decimal
