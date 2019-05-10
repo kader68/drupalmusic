@@ -20,5 +20,9 @@ content:
     third_party_settings: {  }
     region: content
 hidden:
+  field_adresse_concert: true
   field_date_concert: true
   field_description_concert: true
+  field_image_presentation_concert: true
+  field_membres_groupe: true
+  field_prix_indicatif: true
